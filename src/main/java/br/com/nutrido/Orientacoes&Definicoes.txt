@@ -1,0 +1,14 @@
+https://www.devmedia.com.br/java-e-domain-driven-design-na-pratica-java-magazine-87/19019
+
+O DDD propõe uma arquitetura em camadas para a divisão de responsabilidades de uma aplicação. 
+Cada uma delas, deve se especializar em um aspecto particular do sistema. 
+Esta especialização permite a criação de um design coeso e de fácil interpretação. 
+O princípio básico é que cada elemento de uma camada, dependa apenas de outros elementos dessa mesma camada ou de camadas inferiores.
+
+A arquitetura proposta pelo DDD é formada por:
+
+1. Camada de Apresentação (User Interface): Responsável por interpretar os comandos do usuário;
+2. Camada de Aplicação (Application): Não contém regras de negócio ou código referente ao domínio, 
+apenas coordena tarefas e delega trabalhos;
+3. Camada de Modelo (Domain): É o coração do sistema. Responsável por representar o domínio e suas regras de negócio;
+4. Camada de Infraestrutura (Infrastructure): Provê recursos técnicos para o sistema, como persistência de dados.
